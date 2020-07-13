@@ -23,7 +23,7 @@ const db = require('../config/integrations/mongodb');
 db.connect();
 
 //Registro de modulos fastify
-fastify.register(helmet,{ hidePoweredBy: { setTo: 'PHP 4.2.0' } });
+fastify.register(helmet,{ hidePoweredBy: { setTo: 'PHP 2.2.0' } });
 fastify.register(cors);
 fastify.register(routes);
 fastify.register(formbody);
