@@ -11,9 +11,7 @@ To enter into src directory.
 Runs the app in the development mode.<br />
 Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
-### `npm dev`
-
-Runs the app in the development mode. The page will reload if you make edits via nodemon.<br />
+The page will reload if you make edits via nodemon.<br />
 
 ### `npm run build`
 
