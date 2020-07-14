@@ -34,7 +34,7 @@ require('../routes')(fastify);
 // Servidor!
 const start = async () => {
     try {
-        await fastify.listen(config.PORT)
+        await fastify.listen(config.PORT, '0.0.0.0')
         fastify.swagger()
         fastify.log.info(`servidor en ${fastify.server.address().port}`)
     } catch (err) {
